@@ -3,5 +3,5 @@
 
 #### git clone
 ```shell
-npx degit flippedround/package-start
+npx degit flippedround/package-start package-name
 ```

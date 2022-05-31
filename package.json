@@ -1,29 +1,29 @@
 {
-  "name": "[package-name]",
+  "name": "package-name",
   "version": "0.0.0",
   "description": "",
-  "author": "FliPPeDround",
+  "keywords": [],
   "license": "MIT",
-  "homepage": "https://github.com/FliPPeDround/[package-name]#readme",
+  "author": "FliPPeDround",
+  "homepage": "https://github.com/FliPPeDround/package-name#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FliPPeDround/[package-name].git"
+    "url": "git+https://github.com/FliPPeDround/package-name.git"
   },
   "bugs": {
-    "url": "https://github.com/FliPPeDround/[package-name]/issues"
+    "url": "https://github.com/FliPPeDround/package-name/issues"
   },
-  "keywords": [],
+  "main": "dist/package-name.es.js",
+  "module": "./dist/package-name.es.js",
+  "types": "./dist/types/index.d.ts",
+  "unpkg": "dist/package-name.iife.js",
+  "jsdelivr": "dist/package-name.iife.js",
   "exports": {
     ".": {
-      "require": "./dist/[package-name].umd.js",
-      "import": "./dist/[package-name].es.js"
+      "require": "./dist/package-name.umd.js",
+      "import": "./dist/package-name.es.js"
     }
   },
-  "main": "dist/[package-name].es.js",
-  "module": "./dist/[package-name].es.js",
-  "unpkg": "dist/[package-name].iife.js",
-  "jsdelivr": "dist/[package-name].iife.js",
-  "types": "./dist/types/index.d.ts",
   "files": [
     "dist"
   ],

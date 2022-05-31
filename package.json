@@ -1,0 +1,39 @@
+{
+  "name": "[package-name]",
+  "version": "0.0.0",
+  "description": "",
+  "author": "FliPPeDround",
+  "license": "MIT",
+  "homepage": "https://github.com/FliPPeDround/[package-name]#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FliPPeDround/[package-name].git"
+  },
+  "bugs": {
+    "url": "https://github.com/FliPPeDround/[package-name]/issues"
+  },
+  "keywords": [],
+  "exports": {
+    ".": {
+      "require": "./dist/[package-name].umd.js",
+      "import": "./dist/[package-name].es.js"
+    }
+  },
+  "main": "dist/[package-name].es.js",
+  "module": "./dist/[package-name].es.js",
+  "unpkg": "dist/[package-name].iife.js",
+  "jsdelivr": "dist/[package-name].iife.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.23.1",
+    "@types/node": "^17.0.36",
+    "eslint": "^8.16.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vitest": "^0.13.0"
+  }
+}
